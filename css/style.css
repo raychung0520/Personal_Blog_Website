@@ -23,6 +23,7 @@ header {
 
 .body-wrapper {
     background-color: #EEF0F1;
+    /* width:1200px; */
 
     
 }
@@ -31,10 +32,53 @@ header {
     width: 1200px;
     margin:0 auto;
     display: grid;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: 350px auto;
     padding-top: 40px;
 
 }
 
+
+
+@media screen and (max-width: 1200px) {
+    .body-wrapper {
+        width: 1200px;
+        
+    }
+    .main-container {
+        padding-right:20px;
+    }
+
+    .header{
+        width: 1200px;
+    }
+
+    .footer {
+        width:1200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .body-wrapper {
+        width: 1200px;
+    }
+
+    .header{
+        width: 1200px;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .main-container {
+        margin:0px 20px;
+    }
+
+    .body-container{
+
+        grid-template-columns: 1fr;
+    }
+    
+}
 
 
