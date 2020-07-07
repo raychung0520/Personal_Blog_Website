@@ -1,0 +1,63 @@
+.aside-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav {
+    margin: 20px 5px 20px 10px;
+
+}
+
+.side-nav li {
+    margin-right:20px;
+    margin-left:30px;
+    margin-bottom: 20px;
+  
+}
+
+.side-nav li a {
+   display: block;
+   font-size: 18px;
+   color: #000;
+   
+}
+
+
+.side-nav .side-nav-icon {
+    width: 15px;
+    height: 15px;
+    margin-right:10px;
+
+    
+}
+
+
+.side-nav .profile-user{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.side-nav .profile-user .profile-user-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.tag-list {
+    margin-left:30px;
+    padding:10px 10px;
+    
+    
+}
+
+.tag-list li {
+    margin: 5px 10px 10px 5px;
+}
+
+#tag-list-title{
+    font-weight: 600;
+}
+
+.tag-list a {
+    color: #000;
+}

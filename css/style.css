@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
 @import "nav.css";
+@import "sidenav.css";
 
 
 
@@ -17,27 +18,31 @@ header {
 
 }
 
-
-
 .body-wrapper {
-    width: 1200px;
-    margin:0 auto;
+    background-color: #EEF0F1;
+
+    
 }
 
 .body-container{
-    background-color: blueviolet;
+    width: 1200px;
+    margin:0 auto;
     display: grid;
     grid-template-columns: 20% 1fr;
 
 }
 
-.aside{
-    background-color: cyan;
-}
 
-.main {
-    background-color: darkmagenta;
-}
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: crimson;
