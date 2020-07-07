@@ -57,7 +57,7 @@ header {
 }
 
 .main-container-dates-list .active {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid #1827CE;
 }
 
 .posts-container {
@@ -130,18 +130,35 @@ header {
     justify-content: space-around;
 }
 
+.post-like {
+    display: flex;
+    
+}
+
+.post-like .post-like-icon  {
+    margin-left:20px;
+}
+
+.post-like .post-like-icon img {
+    width: 22px;
+    height: 22px;
+    padding-right: 14px;
+}
+
 .post-comment {
     display: flex;
     
 }
 
-.post-comment .post-comment -icon {
+
+
+.post-comment .post-comment {
     margin-left:20px;
 }
 
 .post-comment .post-comment-icon img {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     padding-right: 14px;
 }
 
