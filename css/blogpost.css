@@ -1,0 +1,166 @@
+@import "reset.css";
+@import "nav.css";
+@import "footer.css";
+
+
+
+header {
+    border: 1px solid #99A3AD;
+    background-color: #fff;
+    border-top: none;
+    
+}
+
+.header-container{
+    width: 1200px;
+    margin:0 auto;
+ 
+
+}
+
+.content {
+    background-color: #EEF0F1;
+    padding-top:20px;
+    border-left: 1px solid #99A3AD;
+    border-right: 1px solid #99A3AD;
+
+    
+}
+
+.content-container{
+    background-color: #FFF;
+    width: 1200px;
+    margin:0 auto;
+    display: grid;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+.content-img img{
+    width:100%;
+    height:350px;
+}
+
+.content-body-container{
+    width: 87%;
+    margin: 0 auto;
+
+}
+
+.content-title {
+    margin: 30px 0px;
+}
+
+.content-title h1 {
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.content-info {
+    display: flex;
+    
+}
+
+.content-info-avatar {
+    padding:0px 20px;
+}
+
+.content-info .content-info-avatar img {
+    width: 30px;
+    height: 30px;
+}
+
+.content-info-username {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.content-info-date {
+    color: #464b50;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.content-about {
+    font-weight: 400;
+    margin: 10px 20px;
+    padding: 5px;
+    border: 1px double #99A3AD;
+    border-radius: 5px;
+}
+
+.content-about h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px 0px;
+    
+}
+
+.content-about .content-about-organization {
+    text-align: end;
+    margin-right:30px;
+}
+
+.content-link {
+    display: flex;
+    justify-content: space-between;
+}
+.content-link-taglist {
+    display: flex;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.content-link-taglist a {
+    display: block;
+    padding: 5px 20px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #000;
+    
+}
+
+.content-link-snslist {
+    display: flex;
+}
+
+#snslist-title {
+    
+    font-weight: 600;
+    padding-right:20px;
+}
+
+.content-link-snslist li {
+    padding-right: 20px;
+}
+
+.content-link-snslist li img {
+    width:30px;
+    height:30px;
+}
+
+.content-body {
+    
+    font-size: 20px;
+    margin-top:40px;
+    padding: 5px 20px;
+  
+
+}
+
+.content-body h3{
+    font-weight: bold;
+    font-size:30px;
+    padding-bottom: 10px;
+}
+
+

@@ -1,0 +1,23 @@
+
+.footer {
+    border: 1px solid #99A3AD; 
+    border-bottom: none;
+    height: 80px;
+}
+
+
+.footer-container{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+
+.footer-copyright{
+    text-align: center;
+    margin-top:30px;
+}

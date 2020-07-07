@@ -1,0 +1,149 @@
+
+.main-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-container-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.main-container-dates-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container-dates-list a {
+    display: block;
+    padding: 5px 10px;
+    margin:0px 5px;
+    color: #000;
+    font-weight: 500;
+   
+    
+}
+
+.main-container-dates-list .active {
+    border-bottom: 3px solid #1827CE;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-container .post{
+    border: 1px solid #99A3AD;
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+
+}
+
+.post .post-img img {
+    
+    width:100%;
+    max-height: 400px;
+}
+
+.post-info {
+    display: flex;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+.post-info .post-avatar img {
+    width:40px;
+    height: 40px;
+    
+}
+
+.post-info .post-author{
+    color: #5e5e5e;
+    margin-left:5px;
+}
+
+.post-info .post-author:hover{
+    color: #000;
+    cursor: pointer;
+    
+}
+
+.post-author .post-username{
+    
+    font-weight: 600;
+}
+
+.post-title{
+    font-size:30px;
+    font-weight: bold;
+    margin-left:20px
+}
+
+.post-tags-list{
+    display: flex;
+    margin:10px 20px;
+    
+}
+.post-tags-list a {
+
+    padding-right: 10px;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+.post-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-like {
+    display: flex;
+    
+}
+
+.post-like .post-like-icon  {
+    margin-left:20px;
+}
+
+.post-like .post-like-icon img {
+    width: 22px;
+    height: 22px;
+    padding-right: 14px;
+}
+
+.post-comment {
+    display: flex;
+    
+}
+
+
+
+.post-comment .post-comment {
+    margin-left:20px;
+}
+
+.post-comment .post-comment-icon img {
+    width: 22px;
+    height: 22px;
+    padding-right: 14px;
+}
+
+.post-content .post-read-button {
+    display: block;
+    border: 1px solid #5e5e5e;
+    background-color: #404cca;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.post-read-button:hover {
+    background-color: #1827CE;
+}
+
+
+
+
