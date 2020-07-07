@@ -164,3 +164,46 @@ header {
 }
 
 
+@media screen and (max-width: 1200px) {
+    .body-wrapper {
+        width: 1200px;
+        
+    }
+    .main-container {
+        padding-right:20px;
+    }
+
+    .content {
+        width: 1200px;
+    }
+    .header{
+        width: 1200px;
+    }
+
+    .footer {
+        width:1200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .body-wrapper {
+        width: 1200px;
+    }
+
+    .header{
+        width: 1200px;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .main-container {
+        margin:0px 20px;
+    }
+
+    .body-container{
+
+        grid-template-columns: 1fr;
+    }
+    
